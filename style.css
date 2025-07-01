@@ -20,6 +20,11 @@ button {
   border-color:  #3882F6;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
 .upper-header, .lower-header {
   color: white;
   background-color: #1F2937;
@@ -57,3 +62,27 @@ button {
 }
 
 
+.outer {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.second-head {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding:16px;
+  color: #1F2937;
+}
+
+.text {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
