@@ -12,13 +12,40 @@ ul {
   font-size: 18px;
 }
 
-.header {
+button {
+  padding: 8px 16px;
+  background-color: #3882F6;
   color: white;
-  font-size: 24px;
+  border-radius: 10px;
+  border-color:  #3882F6;
+}
+
+.upper-header, .lower-header {
+  color: white;
   background-color: #1F2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px 50px 125px 150px;
+}
+
+.upper-header {
+  font-size: 24px;
+}
+
+.main-header-wrap {
+  width: 400px;
+}
+
+.main-header {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.placeholder {
+    background-color: grey;
+    padding: 80px;
 }
 
 .right-header {
